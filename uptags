@@ -6,19 +6,16 @@
 # Default project type
 PRJ_TYPE=android-bt
 path_list=(
-"./device/mstar/common/libraries/bluetooth/bluetoothmonitor/bluedroid/bluetooth.c"
-"./device/mstar/common/preinstall/bluetooth/loadbt.sh"
-"./device/mstar/common/preinstall/bluetooth/unloadbt.sh"
 "./frameworks/base/core/java/android/bluetooth"
 "./frameworks/base/core/tests/bluetoothtests/src/android/bluetooth"
 "./frameworks/base/services/core/java/com/android/server/BluetoothManagerService.java"
 "./frameworks/base/core/jni/android_bluetooth_BluetoothMonitor.cpp"
 "./hardware/libhardware/include/hardware/b*"
-"./hardware/qcom/bt/libbt-vendor"
+"./hardware/broadcom/libbt"
+"./hardware/qcom/bt/msm8992"
 "./packages/apps/Bluetooth"
 "./packages/apps/Settings/src/com/android/settings/bluetooth"
 "./system/bt"
-"./vendor/qcom/bt_usb_driver"
 )
 
 case ${PRJ_TYPE} in
