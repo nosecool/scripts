@@ -8,6 +8,7 @@ PRJ_TYPE=android-bt
 path_list=(
 "./frameworks/base/core/java/android/bluetooth"
 "./frameworks/base/core/tests/bluetoothtests/src/android/bluetooth"
+"./frameworks/base/services/java/com/android/server/SystemServer.java"
 "./frameworks/base/services/core/java/com/android/server/BluetoothManagerService.java"
 "./frameworks/base/services/core/java/com/android/server/BluetoothService.java"
 "./hardware/libhardware/include/hardware/b*"
