@@ -9,7 +9,6 @@ path_list=(
 "./frameworks/base/core/java/android/bluetooth"
 "./frameworks/base/core/tests/bluetoothtests/src/android/bluetooth"
 "./frameworks/base/services/core/java/com/android/server/BluetoothManagerService.java"
-"./frameworks/base/core/jni/android_bluetooth_BluetoothMonitor.cpp"
 "./hardware/libhardware/include/hardware/b*"
 "./hardware/broadcom/libbt"
 "./hardware/qcom/bt/msm8992"
